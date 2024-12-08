@@ -1,0 +1,132 @@
+{
+    "artist": [
+        {
+            "artistName": "Metallica",
+            "tour": "M72 Would Tour",
+            "year": "2023-2025",
+            "nightOneSetlist": "Creeping Death, Harvester of Sorrow, Leper Messiah, King Nothing, 72 Seasons, If Darkness Has a Son, The Day That Never Comes, Shadows Follow, Orion, Nothing Else Matters, Sad but True, Hardwired, Fuel, Seek & Destroy, Master of Puppets",
+            "nightTwoSetlist": "Whiplash, For Whom The Bell Tolls, Ride The Lightning, Until It Sleeps, Lux Æterna, Screaming Suicide, Welcome Home (Sanitarium), Wherever I May Roam, The Call of Ktulu, The Unforgiven, Inamorata, Blackened, Moth Into Flame, One, Enter Sandman",
+            "id": "21"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "WorldWired Tour",
+            "year": "2016-2019",
+            "id": "20"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Lords of Summer Tour",
+            "year": "2015",
+            "id": "19"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "By Request Tour",
+            "year": "2014",
+            "id": "18"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Summer Tour 2013",
+            "year": "2013",
+            "id": "17"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "The Full Arsenal Tour",
+            "year": "2012",
+            "id": "16"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "2011 Vacation Tour",
+            "year": "2011",
+            "id": "15"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "World Magnetic Tour",
+            "year": "2008-2010",
+            "id": "14"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Escape from the Studio '06",
+            "year": "2006",
+            "id": "13"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Madly in Anger with the World Tour",
+            "year": "2003-2004",
+            "id": "12"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Summer Sanitarium 2003",
+            "year": "2003",
+            "id": "11"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Summer Sanitarium Tour",
+            "year": "2000",
+            "id": "10"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Poor Re-Touring Me Tour",
+            "year": "1998-1999",
+            "id": "9"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Poor Touring Me",
+            "year": "1996-1997",
+            "id": "8"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Shit Hits the Shed Tour",
+            "year": "1994",
+            "id": "7"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Nowhere Else to Roam",
+            "year": "1993",
+            "id": "6"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Wherever We May Roam Tour",
+            "year": "1991-1992",
+            "id": "5"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Damaged Justice",
+            "year": "1988-1989",
+            "id": "4"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Damage, Inc. Tour",
+            "year": "1986-1987",
+            "id": "3"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Ride the Lightning Tour",
+            "year": "1985",
+            "id": "2"
+        },
+        {
+            "artistName": "Metallica",
+            "tour": "Kill 'Em All for One",
+            "year": "1983-1984",
+            "id": "1"
+        }
+    ]
+}
