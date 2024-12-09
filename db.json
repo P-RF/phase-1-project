@@ -4,80 +4,209 @@
             "artistName": "Metallica",
             "tour": "M72 Would Tour",
             "year": "2023-2025",
-            "nightOneSetlist": "Creeping Death, Harvester of Sorrow, Leper Messiah, King Nothing, 72 Seasons, If Darkness Has a Son, The Day That Never Comes, Shadows Follow, Orion, Nothing Else Matters, Sad but True, Hardwired, Fuel, Seek & Destroy, Master of Puppets",
-            "nightTwoSetlist": "Whiplash, For Whom The Bell Tolls, Ride The Lightning, Until It Sleeps, Lux Æterna, Screaming Suicide, Welcome Home (Sanitarium), Wherever I May Roam, The Call of Ktulu, The Unforgiven, Inamorata, Blackened, Moth Into Flame, One, Enter Sandman",
+            "averageNightOneSetlist": [
+                "Creeping Death", 
+                "Harvester of Sorrow", 
+                "Leper Messiah", 
+                "King Nothing", 
+                "72 Seasons", 
+                "If Darkness Has a Son", 
+                "The Day That Never Comes", 
+                "Shadows Follow", 
+                "Orion", 
+                "Nothing Else Matters", 
+                "Sad but True", 
+                "Hardwired", 
+                "Fuel", 
+                "Seek & Destroy", 
+                "Master of Puppets"
+            ],
+            "averageNightTwoSetlist": [
+                "Whiplash", 
+                "For Whom The Bell Tolls", 
+                "Ride The Lightning", 
+                "Until It Sleeps", 
+                "Lux Æterna", 
+                "Screaming Suicide", 
+                "Welcome Home (Sanitarium)", 
+                "Wherever I May Roam", 
+                "The Call of Ktulu", 
+                "The Unforgiven", 
+                "Inamorata", 
+                "Blackened", 
+                "Moth Into Flame", 
+                "One", 
+                "Enter Sandman"
+            ],
             "id": "21"
         },
         {
             "artistName": "Metallica",
             "tour": "WorldWired Tour",
-            "year": "2016-2019",
+            "yearsOnTour": "2016-2019",
+            "year": "2016",
+            "averageSetlist": [
+                "Creeping Death", 
+                "Atlas, Rise!", 
+                "For Whom The Bell Tolls", 
+                "Sad but True", 
+                "Harvester of Sorrow", 
+                "Moth Into Flame", 
+                "Battery", 
+                "One", 
+                "Fade to Black", 
+                "Master of Puppets", 
+                "Hardwired", 
+                "Enter Sandman", 
+                "Seek & Destroy"
+            ],
+            "encore": [
+                "Whiskey in the Jar", 
+                "Nothing Else Matters"
+            ],
             "id": "20"
         },
         {
             "artistName": "Metallica",
             "tour": "Lords of Summer Tour",
             "year": "2015",
+            "setlist": "Fuel, For Whom the Bell Tolls, King Nothing, Disposable Heroes, Cyanide, The Unforgiven, Lords of Summer, Sad but True, Master of Puppets, The Frayed Ends of Sanity, One, Creeping Death, Fade to Black, Seek & Destroy",
+            "encore": "Whiskey in the Jar, Nothing Else Matters, Enter Sandman",
             "id": "19"
         },
         {
             "artistName": "Metallica",
             "tour": "By Request Tour",
             "year": "2014",
+            "setlist": "Battery, Master of Puppets, Welcome Home (Sanitarium), Ride the Lightning, The Unforgiven, Lords of Summer, Sad but True, Fade to Black, Fuel, ...And Justice for All, One, Orion, For Whom the Bell Tolls, Nothing Else Matters, Enter Sandman",
+            "encore": "Creeping Death, Whiskey in the Jar, Seek & Destroy",
             "id": "18"
         },
         {
             "artistName": "Metallica",
             "tour": "Summer Tour 2013",
             "year": "2013",
+            "setlist": "Hit the Lights, Master of Puppets, Harvester of Sorrow, Ride the Lightning, The Memory Remains, Welcome Home (Sanitarium), Fade to Black, Sad but True, For Whom the Bell Tolls, Orion, One, Blackened, Nothing Else Matters, Enter Sandman",
+            "encore": "Creeping Death, Battery, Seek & Destroy",
             "id": "17"
         },
         {
             "artistName": "Metallica",
             "tour": "The Full Arsenal Tour",
             "year": "2012",
+            "setlist": "Hit the Lights, For Whom the Bell Tolls, Creeping Death, Ride the Lightning, Fuel, Master of Puppets, The God That Failed, Of Wolf and Man, Through the Never, Wherever I May Roam, Don't Tread on Me, Nothing Else Matters, Sad but True, The Unforgiven, Holier Than Thou, Enter Sandman",
+            "encore": "One, Battery, Seek & Destroy",
             "id": "16"
         },
         {
             "artistName": "Metallica",
             "tour": "2011 Vacation Tour",
             "year": "2011",
+            "setlist": "Creeping Death, Fuel, Ride the Lightning, Cyanide, For Whom the Bell Tolls, Welcome Home (Sanitarium), The Memory Remains, Master of Puppets, Fade to Black, Hit the Lights, All Nightmare Long, Sad but True, One, Blackened, Nothing Else Matters, Enter Sandman",
+            "encore": "Seek & Destroy, Am I Evil?",
             "id": "15"
         },
         {
             "artistName": "Metallica",
             "tour": "World Magnetic Tour",
-            "year": "2008-2010",
+            "yearsOnTour": "2008-2010",
+            "year": "2008",
+            "averageSetlist": "That Was Just Your Life, Creeping Death, The End of the Line, Ride the Lightning, For Whom the Bell Tolls, Broken, Beat, & Scarred, Cyanide, ...And Justice for All, Wherever I May Roam, One, Sad but True, The Day That Never Comes, Master of Puppets, Nothing Else Matters",
+            "encore": "Enter Sandman, Last Caress, Seek & Destroy",
             "id": "14"
         },
         {
             "artistName": "Metallica",
             "tour": "Escape from the Studio '06",
             "year": "2006",
+            "setlist": "Creeping Death, Fuel, Wherever I May Roam, For Whom the Bell Tolls, The Unforgiven, Welcome Home (Sanitarium), Battery, The Thing That Should Not Be, Disposable Heroes, Leper Messiah, Orion, Damage/, Inc.",
+            "encoreOne": "Master of Puppets, Sad but True, One, Enter Sandman",
+            "encoreTwo": "Nothing Else Matters, Seek & Destroy",
             "id": "13"
         },
         {
             "artistName": "Metallica",
             "tour": "Madly in Anger with the World Tour",
-            "year": "2003-2004",
+            "yearsOnTour": "2003-2004",
+            "year": "2004",
+            "averageSetlist": "Blackened, Fuel, Welcome Home (Sanitarium), Frantic, Fade to Black, No Leaf Clover, I Disappear, St. Anger, Creeping Death, Sad But True, Battery",
+            "encoreOne": "Wherever I May Roam, Nothing Else Matters, Master of Puppets, One, Seek & Destroy",
+            "encoreTwo": "Enter Sandman",
             "id": "12"
         },
         {
             "artistName": "Metallica",
             "tour": "Summer Sanitarium 2003",
             "year": "2003",
+            "setlist": "Battery, Welcome Home (Sanitarium), For Whom the Bell Tolls, Harvester of Sorrow, Frantic, Master of Puppets, Sad But True, No Remorse, Blackened, Seek & Destroy, St. Anger",
+            "encoreOne": "Fuel, Creeping Death, One",
+            "encoreTwo": "Nothing Else Matters, Enter Sandman",
             "id": "11"
         },
         {
             "artistName": "Metallica",
             "tour": "Summer Sanitarium Tour",
             "year": "2000",
+            "setlist": [
+                "Creeping Death", 
+                "For Whom the Bell Tolls", 
+                "Seek & Destroy", 
+                "Fade to Black", 
+                "Fuel", 
+                "Sad but True", 
+                "No Leaf Clover", 
+                "Mastertarium", 
+                "King Nothing", 
+                "Battery"
+            ],
+            "encoreOne": [
+                "One", 
+                "Die/, Die My Darling", 
+                "Turn the Page"
+            ],
+            "encoreTwo": [
+                "Nothing Else Matters", 
+                "Enter Sandman"
+            ],
+            "encoreThree": [
+                "I Disappear", 
+                "Last Caress"
+            ],
             "id": "10"
         },
         {
             "artistName": "Metallica",
             "tour": "Poor Re-Touring Me Tour",
-            "year": "1998-1999",
+            "yearsOnTour": "1998-1999",
+            "year": "1998",
+            "averageSetlist": [
+                "Last Caress", 
+                "of Wolf and Man", 
+                "The Thing That Should Not Be",
+                "Fuel", 
+                "The Memory Remains",
+                "Bleeding Me", 
+                "Bass/Guitar Solos", 
+                "King Nothing", 
+                "Nothing Else Matters", 
+                "Until It Sleeps", 
+                "Wherever I May Roam", 
+                "One", 
+                "Fight Fire With Fire"
+            ],
+            "encoreOne": [
+                "Master of Puppets",
+                "Sad but True",
+                "The Four Horsemen",
+                "Creeping Death"
+            ],
+            "encoreTwo": [
+                "Low Man/'s Lyric",
+                "Motorbreath"
+            ],
+            "encoreThree": [
+                "Enter Sandman"
+            ],
             "id": "9"
         },
         {
