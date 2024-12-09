@@ -548,19 +548,39 @@
         {
             "artistName": "Metallica",
             "tour": "Damage, Inc. Tour",
-            "year": "1986-1987",
+            "yearsOnTour": "1986-1987",
+            "year": "1986",
+            "averageSetlist": [
+
+            ],
+            "encoreOne": [
+
+            ],
             "id": "3"
         },
         {
             "artistName": "Metallica",
             "tour": "Ride the Lightning Tour",
             "year": "1985",
+            "setlist": [
+
+            ],
+            "encoreOne": [
+
+            ],
             "id": "2"
         },
         {
             "artistName": "Metallica",
             "tour": "Kill 'Em All for One",
-            "year": "1983-1984",
+            "yearsOnTour": "1983-1984",
+            "year": "1983",
+            "averageSetlist": [
+
+            ],
+            "encoreOne": [
+
+            ],
             "id": "1"
         }
     ]
