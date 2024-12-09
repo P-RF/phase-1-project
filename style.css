@@ -48,3 +48,21 @@ body {
   .search-icon {
     color: rgba(173, 173, 173, 0.5);
   }
+
+  .dropdown {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .dropdown .dropdown-toggle {
+    appearance: none;
+    background: #434343;
+    color: #e6e4e4;
+    border: 0;
+    padding: 12px 35px 12px 12px;
+    border-radius: 3px;
+    position: relative;
+    max-width: 300px;
+    outline: none;
+    cursor: pointer;
+  }
