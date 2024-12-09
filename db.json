@@ -250,7 +250,7 @@
                 "Disposable Heroes", 
                 "Leper Messiah", 
                 "Orion", 
-                "Damage/, Inc."
+                "Damage, Inc."
             ],
             "encoreOne": [
                 "Master of Puppets", 
@@ -338,7 +338,7 @@
             ],
             "encoreOne": [
                 "One", 
-                "Die/, Die My Darling", 
+                "Die, Die My Darling", 
                 "Turn the Page"
             ],
             "encoreTwo": [
@@ -395,7 +395,7 @@
                 "So What",
                 "Creeping Death",
                 "Sad but True",
-                "Ain/t My Bitch",
+                "Ain/'t My Bitch",
                 "Whiplash",
                 "King Nothing",
                 "One",
@@ -551,10 +551,20 @@
             "yearsOnTour": "1986-1987",
             "year": "1986",
             "averageSetlist": [
-
+                "Battery",
+                "Master of Puppets",
+                "For Whom the Bell Tolls",
+                "Welcome Home (Sanitarium)",
+                "Ride the Lightning",
+                "The Thing That Should Not Be",
+                "Seek & Destroy",
+                "Fade to Black",
+                "Creeping Death"
             ],
             "encoreOne": [
-
+                "Whiplash",
+                "Am I Evil?",
+                "Damage, Inc."
             ],
             "id": "3"
         },
@@ -563,10 +573,20 @@
             "tour": "Ride the Lightning Tour",
             "year": "1985",
             "setlist": [
-
+                "Fight Fire With Fire",
+                "Ride the Lightning",
+                "Phantom Lord",
+                "(Antsthesia) Pulling Teeth",
+                "For Whom the Bell Tolls",
+                "No Remorse",
+                "Seek & Destroy",
+                "Creeping Death",
+                "Whiplash"
             ],
-            "encoreOne": [
-
+            "encore": [
+                "Guitar Solo",
+                "Am I Evil?",
+                "Motorbreath"
             ],
             "id": "2"
         },
@@ -575,11 +595,20 @@
             "tour": "Kill 'Em All for One",
             "yearsOnTour": "1983-1984",
             "year": "1983",
-            "averageSetlist": [
-
+            "setlist": [
+                "Hit the Lights",
+                "The Four Horsemen",
+                "Jump in the Fire",
+                "Phantom Lord",
+                "No Remorse",
+                "Motorbreath",
+                "Seek & Destroy",
+                "(Antsthesia) Pulling Teeth",
+                "Whiplash"
             ],
-            "encoreOne": [
-
+            "encore": [
+                "Guitar Solo",
+                "Metal Militia"
             ],
             "id": "1"
         }
