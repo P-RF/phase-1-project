@@ -27,7 +27,7 @@ body {
   
   
   .search:focus-within {
-    box-shadow: 0 0 6px #08e60f;
+    box-shadow: 0 0 6px #d4d4d4;
   }
   
   /* Style the input field */
@@ -70,7 +70,7 @@ body {
   .dropdown .dropdown-toggle {
     appearance: none;
     background: #434343;
-    width: 300px;
+    width: 250px;
     color: #b5b5b57e;
     transition: box-shadow 0.25s;
     border: none;
@@ -78,7 +78,7 @@ body {
     padding: 14px;
     position: relative;
     left: 10px;
-    max-width: 200px;
+    max-width: 500px;
     outline: none;
     cursor: pointer;
     overflow: hidden;
@@ -152,4 +152,12 @@ body {
     outline: none;
     background: #cdcdcd28;
     border-radius: 3px;
+  }
+
+  #setlist-container {
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+    color: #e6e4e47e;
+    position: absolute;
+    top: 125px;
   }

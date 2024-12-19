@@ -6,6 +6,8 @@ function fetchTours() {
     fetch("http://localhost:3000/artist")
     .then(response => response.json())
     .then(data => {
+        console.log("Fetched tours data", data); // Logged fetched data
+        populateDropdown(data);
         console.log(data)
     })
     .catch(error => console.error('Error fetching tours:', error));
@@ -65,9 +67,6 @@ function DropDown(dropdownElement) {
 // Pass new dropdown element
 const dropdown = new DropDown(document.querySelector('.dropdown'));
 
-// Call toggle
-// dropdown.toggle(true);
-
 // Listen to change event on dropdown
 dropdown.element.addEventListener('change', () => {
     console.log('change',dropdown.value) // Print dropdown value
@@ -75,3 +74,91 @@ dropdown.element.addEventListener('change', () => {
 
 // Test - should be label of button
 console.log(dropdown.value)
+
+
+// Populate setlists
+
+function populateDropdown(data) {
+    const dropdownMenu = document.getElementById("dropdown-menu"); // Dropdown menu element in HTML
+    dropdownMenu.innerHTML = ""; // Clear existing dropdown items
+
+    data.forEach(tour => {
+        const menuItem = document.createElement("li");
+        menuItem.textContent = `${tour.tourName} (${tour.year})`;
+        menuItem.dataset.id = tour.id; // Store the tour ID for fetching the setlist
+        menuItem.addEventListener("click", () => displaySetlist(tour));
+        dropdownMenu.appendChild(menuItem);
+    });
+}
+
+function displaySetlist(tour) {
+    const setlistContainer = document.getElementById("setlist-container");
+    if (!setlistContainer) {
+        console.error("setlist-container not found");
+        return;
+    }
+
+    setlistContainer.innerHTML = "";
+
+    const title = document.createElement("h2");
+    title.textContent = `${tour.tourName} Setlist (${tour.year})`;
+
+    setlistContainer.appendChild(title);
+
+    const setlist = document.createElement("ul");
+
+    const setlists = [
+        { title: "Average Night One", list: tour.averageNightOneSetlist || [] },
+        { title: "Average Night Two", list: tour.averageNightTwoSetlist || [] },
+        { title: "Setlist", list: tour.setlist || [] },
+        { title: "Average Setlist", list: tour.averageSetlist || [] },
+    ];
+
+    setlists.forEach(({ title, list }) => {
+        if (Array.isArray(list)) {
+            const listTitle = document.createElement("h3");
+            listTitle.textContent = title;
+
+            const ul = document.createElement("ul");
+            list.forEach(song => {
+                const li = document.createElement("li");
+                li.textContent = song;
+                ul.appendChild(li);
+            });
+
+            setlist.appendChild(listTitle);
+            setlist.appendChild(ul);
+        } else {
+            console.warn(`Expected an array for ${title}, but got:`, list);
+        }
+    });
+
+    const encores = [
+        { title: "Encore One", list: tour.encoreOne || [] },
+        { title: "Encore Two", list: tour.encoreTwo || [] },
+        { title: "Encore Three", list: tour.encoreThree || [] },
+        { title: "Encore", list: tour.encore || [] },
+    ];
+
+    encores.forEach(({ title, list }) => {
+        if (Array.isArray(list)) {
+            const encoreTitle = document.createElement("h3");
+            encoreTitle.textContent = title;
+
+            const ul = document.createElement("ul");
+            list.forEach(song => {
+                const li = document.createElement("li");
+                li.textContent = song;
+                ul.appendChild(li);
+            });
+
+            setlist.appendChild(encoreTitle);
+            setlist.appendChild(ul);
+        } else {
+            console.warn(`Expected an array for ${title}, but got:`, list);
+        }
+    });
+
+    setlistContainer.appendChild(title);
+    setlistContainer.appendChild(setlist);
+}
