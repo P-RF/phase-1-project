@@ -31,6 +31,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 
 1. **HTML**: The structure and layout of the web application
 2. **JavaScript**: Used for fetching the data off of `db.json`, manipulating the DOM, handling events, and managing the dropdown functionality.
+3. **Fetch API**: Used to retrieve the data from the local server `(http://localhost:3000/artist)`.
 
 ## Getting Started 
 
