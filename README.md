@@ -121,18 +121,18 @@ cd phase-1-project
 ```
 3. **Create a branch and make changes**
 - Create a new branch:
-``` JSON
+```
 git checkout -b feature-branch-name
 ```
 - Make your desired changes in the relevant files.
 4. **Test your changes**
 5. **Commit and push your changes**
 - Commit your changes:
-``` JSON
+```
 git commit -m "description of your changes"
 ```
 - Push your changes to the forked repository:
-``` JSON
+```
 git push
 ```
 6. **Open a pull request (PR)**
