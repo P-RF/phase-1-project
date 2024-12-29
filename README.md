@@ -21,7 +21,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 - Populates a dropdown menu with available tours dynamically.
 - Displays setlist(s) for selected tour, including encore(s), and dates.
 
-![Output of web application](/screenshots/screen-recording.gif)
+![Screen recording of output of web application](/screenshots/screen-recording.gif)
 
 ## Getting Started :computer:
 
@@ -96,6 +96,13 @@ Displays setlist information for the selected tour, including encores, other typ
 - **If the dropdown is empty:** Verify that the json-server is running and displaying the correct data from `db.json`.
 - **If the detlist is not displayed:** Verify that the selected tour data includes the correct arrays for your setlits and encores.
 - **If there are console errors:** Check the format of the tour data in the `db.json` file.
+
+## Link :link:
+
+You can find the link to this project here: 
+
+<https://github.com/P-RF/phase-1-project.git>
+
 
 ## License
 
