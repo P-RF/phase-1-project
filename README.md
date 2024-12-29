@@ -29,7 +29,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 
 To run this project, verify you have the following:
 
-- A modern, updates web browser (ex: Google Chrome or Edge)
+- A modern, updates web browser (ex: Google Chrome, Edge, or Firefox)
 - A local remote server running on `http://localhost:3000` with an endpoint `/artist` that is in JSON format and provides tour data.
 
 ### Tour Data Format
