@@ -21,7 +21,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 - Populates a dropdown menu with available tours dynamically.
 - Displays setlist(s) for selected tour, including encore(s), and dates.
 
-![Screen recording of output of web application]()
+![Screen recording of output of web application](/screenshots/screen-recording.gif)
 
 ## Getting Started :computer:
 
