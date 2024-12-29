@@ -80,7 +80,7 @@ Displays setlist information for the selected tour, including encores, other typ
 
 - **If the dropdown is empty:** Verify that the json-server is running and displaying the correct data from the **db.json**.
 - **If the detlist is not displayed:** Verify that the selected tour data includes the correct arrays for your setlits and encores.
-- **Console errors:** Check the format of the tour data in the **db.json** file.
+- **If there are console errors:** Check the format of the tour data in the **db.json** file.
 
 ## License
 
