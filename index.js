@@ -108,8 +108,8 @@ function displaySetlist(tour) {
     const setlist = document.createElement("ul");
 
     const setlists = [
-        { title: "Average Night One", list: tour.averageNightOneSetlist || [] },
-        { title: "Average Night Two", list: tour.averageNightTwoSetlist || [] },
+        { title: "Average Night One Setlist", list: tour.averageNightOneSetlist || [] },
+        { title: "Average Night Two Setlist", list: tour.averageNightTwoSetlist || [] },
         { title: "Setlist", list: tour.setlist || [] },
         { title: "Average Setlist", list: tour.averageSetlist || [] },
     ];
@@ -134,10 +134,10 @@ function displaySetlist(tour) {
     });
 
     const encores = [
+        { title: "Encore", list: tour.encore || [] },
         { title: "Encore One", list: tour.encoreOne || [] },
         { title: "Encore Two", list: tour.encoreTwo || [] },
         { title: "Encore Three", list: tour.encoreThree || [] },
-        { title: "Encore", list: tour.encore || [] },
     ];
 
     encores.forEach(({ title, list }) => {
