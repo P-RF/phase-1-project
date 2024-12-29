@@ -27,6 +27,11 @@ This dynamic web application fetches and displays tour data for artists. It spec
 
 ![Screen recording of output of web application](/screenshots/screen-recording.gif)
 
+## Technologies
+
+1. **HTML**: The structure and layout of the web application
+2. **JavaScript**: Used for fetching the data off of `db.json`, manipulating the DOM, handling events, and managing the dropdown functionality.
+
 ## Getting Started 
 
 ### Prerequisites
