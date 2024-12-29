@@ -2,7 +2,7 @@
 
 This dynamic web application fetches and displays tour data for artists. It specifically allows users to select a Metallica tour from a dropdown menu and view detailed setlists, encores, and dates for that tour.
 
-## Table of Contents :book:
+## :book: Table of Contents 
 
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -13,6 +13,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 - [Key Components](#key-components)
 - [Customization](#customization)
 - [Troubleshooting](#troubleshooting)
+- [Link](#link)
 - [License](#license)
 
 ### Features
@@ -23,7 +24,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 
 ![Screen recording of output of web application](/screenshots/screen-recording.gif)
 
-## Getting Started :computer:
+## Getting Started 
 
 ### Prerequisites
 
@@ -68,7 +69,7 @@ The `/artist` endpoint should return the data in the following format:
 - **db.json**: JSON file that contains the database of the tour data.
 - **style.css**: Styling for the dropdown and setlist display
 
-## Key Components :key:
+## Key Components  
 
 **fetchTours**
 
@@ -88,18 +89,18 @@ Displays setlist information for the selected tour, including encores, other typ
 
 ## Customization
 
-- Update the data in `db.json` to include your desired trours and setlists.
-- Modify thr dropdown and serlist display logic in the `index.js` file to suit the needs of your application.
+- Update the data in `db.json` to include your desired tours and setlists.
+- Modify the dropdown and serlist display logic in the `index.js` file to suit the needs of your application.
 
 ## Troubleshooting
 
-- **If the dropdown is empty:** Verify that the json-server is running and displaying the correct data from `db.json`.
-- **If the detlist is not displayed:** Verify that the selected tour data includes the correct arrays for your setlits and encores.
+- **If the dropdown is empty:** Verify that the JSON Server is running and displaying the correct data from `db.json`.
+- **If the setlist is not displayed:** Verify that the selected tour data includes the correct arrays for your setlits and encores.
 - **If there are console errors:** Check the format of the tour data in the `db.json` file.
 
-## Link :link:
+## Link  
 
-You can find the link to this project here: 
+:link: You can find the link to this project here: 
 
 <https://github.com/P-RF/phase-1-project.git>
 
