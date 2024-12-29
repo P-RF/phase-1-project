@@ -14,9 +14,9 @@ This dynamic web application fetches and displays tour data for artists. It spec
 - [Customization](#customization)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+    - [Link](#link)
     - [How to Contribute](#how-to-contribute)
     - [Development Setup](#development-setup)
-- [Link](#link)
 - [License](#license)
 
 ### Features
@@ -105,6 +105,12 @@ Displays setlist information for the selected tour, including encores, other typ
 
 Thank you for your interest in contributing to this project! Contributions of all kinds are welcome; from new features to code improvements. Below is a guide to help you get started.
 
+### Link  
+
+:link: You can find the link to this project here: 
+
+<https://github.com/P-RF/phase-1-project.git>
+
 ### How to Contribute
 
 1. **Fork the repository on GitHub**
@@ -140,13 +146,6 @@ git push
 1. Start the JSON server:
 `json-server --watch db.json`
 2. Open `index.html` in your browser to view the project.
-
-## Link  
-
-:link: You can find the link to this project here: 
-
-<https://github.com/P-RF/phase-1-project.git>
-
 
 ## License
 
