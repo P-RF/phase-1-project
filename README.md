@@ -70,7 +70,7 @@ The `/artist` endpoint should return the data in the following format:
 
 ## Key Components :key:
 
-**Fetch Tours**
+**fetchTours**
 
 Fetches tour data from `db.json` and generates the dropdown menu.
 
