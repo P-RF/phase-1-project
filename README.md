@@ -115,7 +115,7 @@ Thank you for your interest in contributing to this project! Contributions of al
 
 1. **Fork the repository on GitHub**
 2. **Clone the repository to your local computer**
-``` JSON
+```
 git clone https://github.com/your-username/phase-1-project.git
 cd phase-1-project
 ```
