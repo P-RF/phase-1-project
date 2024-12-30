@@ -6,12 +6,12 @@ This dynamic web application fetches and displays tour data for artists. It spec
 
 - [Features](#features)
 - [Technologies](#technologies)
+- [Project Structure](#project-structure)
+- [Key Components](#key-components)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Tour Data Format](#tour-data-format)
     - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
-- [Key Components](#key-components)
 - [Customization](#customization)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
@@ -37,6 +37,31 @@ This dynamic web application fetches and displays tour data for artists. It spec
 5. **DOM Manipulation**: For dynamically showing the dropdown, setlists, and handling the interactions of the user.
 6. **CSS**: For styling the web application and some functionality.
 7. **Event Listeners**: Used to manage the behavior of the dropdown menu and handle interactions such as clicks and changes.
+
+## Project Structure
+
+- **index.html**: Main HTML file.
+- **index.js**: Contains the JavaScript logic for fetching the data, managing dropdowns, and displaying the setlists and encores.
+- **db.json**: JSON file that contains the database of the tour data.
+- **style.css**: Styling for the dropdown and setlist display
+
+## Key Components  
+
+**fetchTours**
+
+Fetches tour data from `db.json` and generates the dropdown menu.
+
+**DropDown**
+
+A reusable dropdown component that handles user interactions and triggers a **change** event when a selection is made.
+
+**populateDropdown**
+
+Populates the dropdown menu items based on the fetched tour data.
+
+**DisplaySetlist**
+
+Displays setlist information for the selected tour, including encores, other types of setlists, and dates.
 
 ## Getting Started 
 
@@ -75,31 +100,6 @@ The `/artist` endpoint should return the data in the following format:
 2. Open `index.html` in a web browser.
 3. Ensure your backend server is running and is accessible at `http://localhost:3000`.
 4. Interact with the dropdown menu to select the tour and view the setlists, encores, and dates.
-
-## Project Structure
-
-- **index.html**: Main HTML file.
-- **index.js**: Contains the JavaScript logic for fetching the data, managing dropdowns, and displaying the setlists and encores.
-- **db.json**: JSON file that contains the database of the tour data.
-- **style.css**: Styling for the dropdown and setlist display
-
-## Key Components  
-
-**fetchTours**
-
-Fetches tour data from `db.json` and generates the dropdown menu.
-
-**DropDown**
-
-A reusable dropdown component that handles user interactions and triggers a **change** event when a selection is made.
-
-**populateDropdown**
-
-Populates the dropdown menu items based on the fetched tour data.
-
-**DisplaySetlist**
-
-Displays setlist information for the selected tour, including encores, other types of setlists, and dates.
 
 ## Customization
 
