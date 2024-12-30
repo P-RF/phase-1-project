@@ -5,6 +5,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 ## :book: Table of Contents 
 
 - [Features](#features)
+- [Technologies](#technologies)
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Tour Data Format](#tour-data-format)
