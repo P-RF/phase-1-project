@@ -20,7 +20,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
     - [Development Setup](#development-setup)
 - [License](#license)
 
-### Features
+## Features
 
 - Fetches tour data from a backend server.
 - Populates a dropdown menu with available tours dynamically.
