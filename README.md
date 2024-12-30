@@ -33,6 +33,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 2. **JavaScript**: Used for fetching the data off of `db.json`, manipulating the DOM, handling events, and managing the dropdown functionality.
 3. **Fetch API**: Used to retrieve the data from the local server `(http://localhost:3000/artist)`.
 4. **JSON**: Format used for the tour data that the `fetch` API receives.
+5. **DOM Manipulation**: For dynamically showing the dropdown, setlists, and handling the interactions of the user.
 
 ## Getting Started 
 
