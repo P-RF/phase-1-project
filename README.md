@@ -35,7 +35,7 @@ This dynamic web application fetches and displays tour data for artists. It spec
 4. **JSON**: Format used for the tour data that the `fetch` API receives.
 5. **DOM Manipulation**: For dynamically showing the dropdown, setlists, and handling the interactions of the user.
 6. **CSS**: For styling the web application and some functionality.
-7. **Event Listeners**:
+7. **Event Listeners**: Used to manage the behavior of the dropdown menu and handle interactions such as clicks and changes.
 
 ## Getting Started 
 
