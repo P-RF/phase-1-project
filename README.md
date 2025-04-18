@@ -1,6 +1,6 @@
 # Metallica Tours Setlist Manager
 
-This dynamic web application fetches and displays tour data for artists. It specifically allows users to select a Metallica tour from a dropdown menu and view detailed setlists, encores, and dates for that tour.
+This dynamic web application fetches and displays tour data for a specific artist. It allows users to select a Metallica tour from a dropdown menu and view detailed setlists, encores, and dates for that tour.
 
 ## :book: Table of Contents 
 
