@@ -104,7 +104,7 @@ The `/artist` endpoint should return the data in the following format:
 ## Customization
 
 - Update the data in `db.json` to include your desired tours and setlists.
-- Modify the dropdown and serlist display logic in the `index.js` file to suit the needs of your application.
+- Modify the dropdown and setlist display logic in the `index.js` file to suit the needs of your application.
 
 ## Troubleshooting
 
