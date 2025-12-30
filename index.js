@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("We are connected!")}) 
 
 function fetchTours() {
-    fetch("http://localhost:3000/artist")
+    fetch("/artist.json")
     .then(response => response.json())
     .then(data => {
         // console.log("Fetched tours data", data); // Logged fetched data.

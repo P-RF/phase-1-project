@@ -110,3 +110,8 @@ body {
     position: absolute;
     top: 275px;
   }
+
+/* Style of corgi button */
+  #corgiButton {
+    margin-top: 50px;  
+  }

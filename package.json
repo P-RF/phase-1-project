@@ -1,0 +1,21 @@
+{
+  "name": "phase-1-project",
+  "version": "1.0.0",
+  "description": "This dynamic web application fetches and displays tour data for artists. It specifically allows users to select a Metallica tour from a dropdown menu and view detailed setlists, encores, and dates for that tour.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-RF/phase-1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-RF/phase-1-project/issues"
+  },
+  "homepage": "https://github.com/P-RF/phase-1-project#readme"
+}
