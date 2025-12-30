@@ -7,7 +7,7 @@ function fetchTours() {
     .then(response => response.json())
     .then(data => {
         // console.log("Fetched tours data", data); // Logged fetched data.
-        populateDropdown(data);
+        populateDropdown(data.artist);
         // console.log(data)
     })
     .catch(error => console.error('Error fetching tours:', error));
